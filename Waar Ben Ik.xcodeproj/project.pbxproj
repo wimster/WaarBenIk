@@ -13,6 +13,7 @@
 		3ADB8E7A1A3B2AA7007832A5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3ADB8E791A3B2AA7007832A5 /* Images.xcassets */; };
 		3ADB8E7D1A3B2AA7007832A5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3ADB8E7B1A3B2AA7007832A5 /* LaunchScreen.xib */; };
 		3ADB8E891A3B2AA7007832A5 /* Waar_Ben_IkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADB8E881A3B2AA7007832A5 /* Waar_Ben_IkTests.swift */; };
+		3ADB8E931A3B2AEC007832A5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ADB8E921A3B2AEC007832A5 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		3ADB8E821A3B2AA7007832A5 /* Waar Ben IkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Waar Ben IkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3ADB8E871A3B2AA7007832A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3ADB8E881A3B2AA7007832A5 /* Waar_Ben_IkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Waar_Ben_IkTests.swift; sourceTree = "<group>"; };
+		3ADB8E921A3B2AEC007832A5 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3ADB8E931A3B2AEC007832A5 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +62,7 @@
 		3ADB8E641A3B2AA7007832A5 = {
 			isa = PBXGroup;
 			children = (
+				3ADB8E921A3B2AEC007832A5 /* CoreLocation.framework */,
 				3ADB8E6F1A3B2AA7007832A5 /* Waar Ben Ik */,
 				3ADB8E851A3B2AA7007832A5 /* Waar Ben IkTests */,
 				3ADB8E6E1A3B2AA7007832A5 /* Products */,
