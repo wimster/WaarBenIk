@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9AAD62CA-2A06-4CC9-9DE7-8F093625BF52</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Waar Ben Ik</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>9DED5768CB991671EAD9F54E0F6D6EDE933151B4</key>
+		<string>https://github.com/wimster/WaarBenIk.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Waar Ben Ik.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>9DED5768CB991671EAD9F54E0F6D6EDE933151B4</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/wimster/WaarBenIk.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>9DED5768CB991671EAD9F54E0F6D6EDE933151B4</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9DED5768CB991671EAD9F54E0F6D6EDE933151B4</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Waar%20Ben%20Ik</string>
+		</dict>
+	</array>
+</dict>
+</plist>

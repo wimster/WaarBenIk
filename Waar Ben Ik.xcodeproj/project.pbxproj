@@ -10,10 +10,10 @@
 		3ADB8E731A3B2AA7007832A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADB8E721A3B2AA7007832A5 /* AppDelegate.swift */; };
 		3ADB8E751A3B2AA7007832A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADB8E741A3B2AA7007832A5 /* ViewController.swift */; };
 		3ADB8E781A3B2AA7007832A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ADB8E761A3B2AA7007832A5 /* Main.storyboard */; };
-		3ADB8E7A1A3B2AA7007832A5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3ADB8E791A3B2AA7007832A5 /* Images.xcassets */; };
 		3ADB8E7D1A3B2AA7007832A5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3ADB8E7B1A3B2AA7007832A5 /* LaunchScreen.xib */; };
 		3ADB8E891A3B2AA7007832A5 /* Waar_Ben_IkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADB8E881A3B2AA7007832A5 /* Waar_Ben_IkTests.swift */; };
 		3ADB8E931A3B2AEC007832A5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ADB8E921A3B2AEC007832A5 /* CoreLocation.framework */; };
+		3ADB8E951A3B5BE2007832A5 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3ADB8E941A3B5BE2007832A5 /* Media.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,12 +32,12 @@
 		3ADB8E721A3B2AA7007832A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3ADB8E741A3B2AA7007832A5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3ADB8E771A3B2AA7007832A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3ADB8E791A3B2AA7007832A5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3ADB8E7C1A3B2AA7007832A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		3ADB8E821A3B2AA7007832A5 /* Waar Ben IkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Waar Ben IkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3ADB8E871A3B2AA7007832A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3ADB8E881A3B2AA7007832A5 /* Waar_Ben_IkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Waar_Ben_IkTests.swift; sourceTree = "<group>"; };
 		3ADB8E921A3B2AEC007832A5 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		3ADB8E941A3B5BE2007832A5 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,8 +84,8 @@
 				3ADB8E721A3B2AA7007832A5 /* AppDelegate.swift */,
 				3ADB8E741A3B2AA7007832A5 /* ViewController.swift */,
 				3ADB8E761A3B2AA7007832A5 /* Main.storyboard */,
-				3ADB8E791A3B2AA7007832A5 /* Images.xcassets */,
 				3ADB8E7B1A3B2AA7007832A5 /* LaunchScreen.xib */,
+				3ADB8E941A3B5BE2007832A5 /* Media.xcassets */,
 				3ADB8E701A3B2AA7007832A5 /* Supporting Files */,
 			);
 			path = "Waar Ben Ik";
@@ -197,8 +197,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3ADB8E781A3B2AA7007832A5 /* Main.storyboard in Resources */,
+				3ADB8E951A3B5BE2007832A5 /* Media.xcassets in Resources */,
 				3ADB8E7D1A3B2AA7007832A5 /* LaunchScreen.xib in Resources */,
-				3ADB8E7A1A3B2AA7007832A5 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,9 +342,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "Waar Ben Ik/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -352,9 +354,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "Waar Ben Ik/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
